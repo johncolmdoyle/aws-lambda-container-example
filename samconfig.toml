@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "gizmo-example"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1owsb6dv8zl8j"
+s3_prefix = "gizmo-example"
+image_repository = "196295636944.dkr.ecr.us-east-1.amazonaws.com/gizmo-lambda-container"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
